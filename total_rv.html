@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>흰여울</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(245, 245, 245, 0.788);
+        }
+
+        header {
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 0;
+        }
+
+
+        nav {
+            background-image: url(bg1.jpg);
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: none;
+            border-bottom: 3px solid #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 30px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            /*해결안됨. 흰여울이왼쪽에 더 붙으면 좋겠음*/
+            justify-content: flex-start;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        .brand-logo img {
+            height: 68px;
+            margin-left: 0px;
+            margin: auto;
+            /* 이미지를 수직, 수평 중앙에 정렬 */
+
+        }
+
+        .login-button {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 0;
+            border: none;
+            /* 테두리 제거 */
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .login-button:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+
+        nav ul {
+            margin: 10px;
+        }
+
+        /* 반응형 스타일 */
+        @media (max-width: 768px) {
+            .brand-logo img {
+                width: 80px;
+                height: 45px;
+            }
+        }
+
+
+        .kit-heading {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .kit-heading small {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        hr {
+            border: none;
+            /* 기본 선 제거 */
+            border-top: 1px solid #cfcfcfce;
+            /* 두꺼운 선 설정 */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="흰여울120.png" width="120" height="68"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">전체상품</a></li>
+                    <li><a href="#">키트</a></li>
+                    <li><a href="#">신상품</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">회사 소개</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">로그인</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div>
+            <div class="col-md-12">
+                <h2 style="text-align: center; margin-top: 50px; margin-left: 0; margin-bottom: 70px;">
+                    솔직한 리뷰어들의 전통주 <strong>REVIEW</strong> <br>
+                    <small>흰여울 전통주에 대한 정성어린 review!</small>
+                </h2>
+                <hr>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3"> </div>
+                <div class="col-md-8">
+                    <h3>사진 리뷰만 모아보기 >></h3> <br>
+                    <span>
+                        <img src="review1.jpeg" width="100" height="133">
+                    </span>
+                    <span>
+                        <img src="review2.jpeg" width="100" height="133">
+                    </span>
+                    <span>
+                        <img src="review3.jpeg" width="100" height="133">
+                    </span>
+                    <span>
+                        <img src="review4.png" width="100" height="133">
+                    </span>
+                    <span>
+                        <img src="review5.jpeg" width="100" height="133">
+                    </span>
+                    <span>
+                        <img src="review6.jpeg" width="100" height="133">
+                    </span>
+                    <span>
+                        <img src="review7.jpeg" width="100" height="133">
+                    </span>
+                    <br>
+                    <p>
+                        <a class="btn" href="#">자세히 보기 »</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review1.jpeg" alt="리뷰1" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[단품] 막걸리 랜덤박스</h3>
+                        </p>
+                        <br>
+                        <h4><strong> &nbsp; 은별(sil****)님</strong></h4>
+                        <br> <br>막걸리 좋아하는 사람들에게 순애주 전통주 강추합니다! <br>
+                        막걸리라고 무조건 사발에 먹어야 한다는 고정관념은 이제 그만~ <br>
+                        요즘엔 퇴근하고 치맥 대신 달달한 막걸리 한 잔 하는게 삶의 낙이에요!!
+                        그리고 친구들 집에 놀러 왔을 때도 세련된 와인잔에 대접했더니 엄청 좋아하더라구요~
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review2.jpeg" alt="리뷰2" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[단품] 동백꽃 제주</h3>
+                        <br>
+                        <h4> <strong> &nbsp; 쪼코(tn****)님</strong></h4>
+                        <br>
+                        남자친구랑 기념일에 그동안 너무 먹고 싶었던 동백주 도전해봤어요. <br>
+                        색도 예쁘고 맛도 달달해서 분위기 정말 최고!! <br>
+                        고민은 배송만 늦출 뿐... 각종 기념일에 동백주 한잔 어떠신지
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review3.jpeg" alt="리뷰3" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[키트] 증류주 키트</h3>
+                        <br>
+                        <h4> <strong> &nbsp; 곽곽(se****)님</strong></h4>
+                        <br>
+                        그동한 존경하던 교수님께 전통주 키트 선물해드렸습니다. <br>
+                        학생이라 정말 비싼 와인이나 전통주는 부담스럽고,, 하지만 격식은 차리고 싶었는데,
+                        정말 딱 좋은 선물 드린 것 같아 기분이 좋습니다!! 교수님도 전통주를 좋아하시던 분이라 여러가지 맛 볼 수 있으시겠다며 좋아하셨습니다. <br>
+                        앞으로 종종 명절 선물로 애용할 것 같네요.
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review4.png" alt="리뷰4" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[단품] 이강주</h3>
+                        <br>
+                        <h4> <strong> &nbsp; 귤민(geu****)님</strong></h4>
+                        <br>
+                        친구들끼리 이강주 유행이어서 어디서 살까 고민하다가 흰여울에서 예전에 키트 샀던 것 생각나서 구매했어요. <br>
+                        혼자서 야식 먹어도 초라하지 않게 분위기 낼 수 있어서 너무 좋아요. 다음에는 예쁜 술잔도 같이 사서 마시고 싶어요.
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review5.jpeg" alt="리뷰5" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[키트] 과일주 키트</h3>
+                        <br>
+                        <h4> <strong> &nbsp; 푸릇(fr****)</strong></h4>
+                        <br>
+                        전통주에 대해 막 관심 생겨서 이것저것 알아보다가 흰여울에서 증류주 키트 구매했어요!! <br>
+                        전통주 3개 정도 적당히 들어 있어서 취향 안 맞을까봐 고민하는 부담 없이 맘 편히 구매 했어요 <br>
+                        친구들이랑 하나씩 마시면서 얘기 나누기 너무 좋을 것 같아요! 다음엔 막걸리 키트도 나오면 좋겠어요~~
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review6.jpeg" alt="리뷰6" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[키트] 증류주 키트</h3>
+                        <br>
+                        <h4> <strong> &nbsp;만월(ful****)님</strong></h4>
+                        <br>
+                        그 유명한 만월 세트 구매했습니다!! 이 거 엄 청 맛 있 습 니 다 . <br>
+                        곧 엄마 생일이어서 간단하게 선물할만 한 선물 뭐가 있을까 고민하다가 회사 사람들한테 추천받고 구매했어요. <br>
+                        저희 엄마는 달달한 맛 좋아하셔서 만월을 제일 좋아하셨구요, 제 입맛엔 IAM이 제일 맛있더라구요. <br>
+                        전통주라 그런지 한식 밥상과 아주아주 잘 어울렸습니다!! 추천추천!
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <hr>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="review7.jpeg" alt="리뷰7" width="200" height="267">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                        <h3>[키트] 종류별 키트</h3>
+                        <br>
+                        <h4> <strong> &nbsp; 이봐(hey****)</strong></h4>
+                        <br>
+                        다양한 전통주 세트 구매해서 친구 집들이에 놀러갔어요. <br>
+                            막걸리가 깔끔하고 달달해서 제일 인기가 좋았어요. <br>
+                            다음엔 막걸리 잔도 준비해서 더 맛있게 먹어보려구요!!
+                        </p>
+                    </div>
+                </div>
+
+
+                <br><br>
+
+
+            </div>
+            <div class="col-md-3"></div>
+            <br><br><br><br><br><br>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
